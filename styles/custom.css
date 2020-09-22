@@ -1,0 +1,68 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  background-color: #f0f0f5;
+}
+
+
+#logo-site {
+  width: 200px;
+  height: 50px;
+}
+
+.conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+
+}
+
+.white-box {
+  background-color: white;
+  width: 50%;
+  border-radius: 6px;
+  align-content: center;
+  padding: 16px;
+  box-shadow: 2px 3px 3px black;
+  border: solid grey 1px;
+  margin:16px;
+
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.mg-left {
+  margin-left: 18px;
+}
+
+.mg-bottom {
+  margin-bottom: 18px;
+}
+
+.nav-left {
+  display: flex;
+  width: 400px;
+  justify-content: flex-start;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.post img {
+  width: 90%;
+  border-radius: 3px;
+}
+
+.title-light{
+  font-family: 'Roboto Mono', monospace;
+  font-size:18px;
+}
